@@ -81,6 +81,30 @@ public class Main {
 
     public static void task5() {
         System.out.println("Задача 5");
-        // Пишем код для задачи 5
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Сейчас зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Сейчас Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Сейчас Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Сейчас Осень");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
     }
 }
