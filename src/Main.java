@@ -66,7 +66,7 @@ public class Main {
         int deliveryDistance = 95;
         boolean secondDistance = deliveryDistance > 20 && deliveryDistance <= 60;
         boolean thirdDistance = deliveryDistance > 60 && deliveryDistance <= 100;
-        if (deliveryDistance <= 20){
+        if (deliveryDistance <= 20) {
             System.out.println("Потребуется 1 день");
 
         } else if (secondDistance) {
@@ -77,6 +77,7 @@ public class Main {
             System.out.println("Свыше 100 км доставки нет");
         }
     }
+
 
     public static void task5() {
         System.out.println("Задача 5");
